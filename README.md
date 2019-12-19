@@ -62,9 +62,9 @@ This tool offers a nice User Interface for passing search criteria and export op
    <li>Tweet's poster number of followers</li>
 </ul>
 
-<h4>Exported to a CSV file</h4>
+<h4>Export to CSV</h4>
 <ul>
-  <li>CSV file can be easily converted to an excel file by selecting the first column and using the "Text to columns" option in Excel. Use 'tabs' as the selected option for the delimiter type and change the 'Tweet id" column format to 'Number' without any decimals.</li>
+  <li>The exported CSV file can be easily converted to an excel file by selecting the first column and using the "Text to columns" option in Excel. Use 'tabs' as the selected option for the delimiter type and change the 'Tweet id" column format to 'Number' without any decimals.</li>
 </ul>
 
 
