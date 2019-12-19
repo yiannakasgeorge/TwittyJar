@@ -2,7 +2,7 @@
 
 Export Tweets by using a Twitter Advanced Search similar UI, written in Python. This project was inspired by Jefferson Henrique's Python script at https://github.com/Jefferson-Henrique/GetOldTweets-python for getting old tweets without using the Twitter's API.
 
-This tool offers a nice User Interface for passing search criteria and export options before executing a Twitter Search. It offers all the options that Twitter's Advanced Search tool (https://twitter.com/search-advanced?lang=eng) offers, but it can also export all results in a CSV file which can be easily converted to an Excel document. It is capable of producing results up to 2+ years old. It is a great tool for marketeers, data analysts, CEO's and anyone else looking to get Twitter data exported in a single file.
+This tool offers a nice User Interface for passing search criteria and export options before executing a Twitter Search. It offers all the options that Twitter's Advanced Search tool (https://twitter.com/search-advanced?lang=eng) offers, but it can also export all results in a CSV file which can be easily converted to an Excel spreadsheet. It is capable of producing results up to 2+ years old. It is a great tool for marketeers, data analysts, CEO's and anyone else looking to get Twitter data exported in a single file.
 
 <h3>:: Availability</h3>
 <ul>
@@ -64,7 +64,7 @@ This tool offers a nice User Interface for passing search criteria and export op
 
 <h4>Export to CSV</h4>
 <ul>
-  <li>The exported CSV file can be easily converted to an excel file by selecting the first column and using the "Text to columns" option in Excel. Use 'tabs' as the selected option for the delimiter type and change the 'Tweet id" column format to 'Number' without any decimals.</li>
+  <li>The exported CSV file can be easily converted to an excel spreadsheet by selecting the first column and using the "Text to columns" option in Excel. Use 'tabs' as the selected option for the delimiter type and change the 'Tweet id" column format to 'Number' without any decimals.</li>
 </ul>
 
 
