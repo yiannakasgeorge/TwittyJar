@@ -8,7 +8,7 @@ This tool offers a nice User Interface for passing search criteria and export op
 <ul>
   <li>Run directly as a Python3 script (main.py)</li>
    <li>Run on Mac OS by downloading the <a href="https://github.com/yiannakasgeorge/pythonGUI-twitter-advanced-search/blob/master/dist/twitterSearchMac">TwitterSearchMac.app</a> located in the 'Dist' folder of this repo</li>
-   <li>Run on Windows by downloading the <a href="twitterSearchWin.exe">TwitterSearchWin.exe</a> located in the 'Dist' folder of this repo</li>
+   <li>Run on Windows by downloading the <a href="https://github.com/yiannakasgeorge/pythonGUI-twitter-advanced-search/blob/master/dist/twitterSearchWin.exe">TwitterSearchWin.exe</a> located in the 'Dist' folder of this repo</li>
   <p>*The CSV exports will be stored on your desktop</p>
 </ul>
 
