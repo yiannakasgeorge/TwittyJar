@@ -1,0 +1,3 @@
+([('twitterSearchMac',
+   '/Users/George/Documents/Git/twitter-advanced-search/dist/twitterSearchMac',
+   'EXECUTABLE')],)

@@ -44,9 +44,7 @@ class Worker(QtCore.QThread):
 
     @pyqtSlot()
     def run(self):
-        # self.formSearchCriteria = form.formSearchCriteria
-        # self.formExportOptions = form.formExportOptions
-        # self.formProxyOptions = formProxyOptions
+        
         formSearchCriteria = self.formSearchCriteria
         fileName = self.formExportOptions.filename
         columnsHeading = ''
@@ -54,11 +52,8 @@ class Worker(QtCore.QThread):
         placeholders = '\n'
         fieldsColumnsMap = models.FormExportOptions.getMappingsBetweenExportFieldsAndColumnNames()
 
-         # determine if application is a script file or frozen exe
-        if getattr(sys, 'frozen', False):
-            application_path = os.path.dirname(sys.executable)
-        elif __file__:
-            application_path = os.path.dirname(__file__)
+        desktop = os.path.join(os.path.expanduser("~"), "Desktop")
+        filePath = os.path.join(desktop, fileName)
 
         for attr,value in vars(self.formExportOptions).items():
 
@@ -73,7 +68,7 @@ class Worker(QtCore.QThread):
 
         try:
            
-            outputFile = codecs.open(application_path + '/' + fileName, "w+", "utf_8_sig")
+            outputFile = codecs.open(filePath, "w+", "utf_8_sig")
             outputFile.write(columnsHeading)
             tweetsIds = []
         
@@ -99,7 +94,10 @@ class Worker(QtCore.QThread):
         finally:
             outputFile.close()
             self.sgnFinished.emit()
-            self.sgnOutput.emit('Results saved in:  "%s".' % fileName)
+            if(len(tweetsIds) == 0):
+                self.sgnOutput.emit('No results found! Try another search.')
+            else:
+                self.sgnOutput.emit('Results saved in:  "%s".' % fileName)
             
                    
 class Client(QObject):

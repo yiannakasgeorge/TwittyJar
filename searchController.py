@@ -77,8 +77,11 @@ class SearchController:
 			searchResults = SearchController.getTweetSearchResults(
 			    url, cursorHash, cookie, proxyURL, randomUserAgent)
 			
-			if (searchResults == None) or (searchResults and len(searchResults['items_html'].strip()) == 0):
+			if (searchResults == None):
 				worker.sgnOutput.emit('Connection Error!')
+				break
+
+			if (searchResults and len(searchResults['items_html'].strip()) == 0):
 				break
 
 			cursorHash = searchResults['min_position']
