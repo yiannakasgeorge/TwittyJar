@@ -1,0 +1,3 @@
+*.* linguist-language=Python
+/build linguist-detectable=false
+/dist linguist-detectable=false
