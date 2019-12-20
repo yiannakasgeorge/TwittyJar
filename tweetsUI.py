@@ -408,7 +408,7 @@ class Ui_Dialog(object):
         self.label_Places.setText(_translate("Dialog", "Places"))
         self.lbl_nearthisplace.setText(_translate("Dialog", "Near this place"))
         self.label_Export.setText(_translate("Dialog", "Export Options"))
-        self.checkBox_getFollowersCount.setText(_translate("Dialog", "*Tweet\'s poster num of followers"))
+        self.checkBox_getFollowersCount.setText(_translate("Dialog", "*Tweet\'s poster number of followers"))
         self.label_Output.setText(_translate("Dialog", "Export Progress"))
         self.label.setText(_translate("Dialog", "Twitter Advanced Search"))
         self.lbl_thisexactphrase.setText(_translate("Dialog", "This exact phrase"))
