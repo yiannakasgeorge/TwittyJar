@@ -1,6 +1,6 @@
 ![img](https://i.imgur.com/fApFGmM.png)
 
-# Twitter Advanced Search Export Tool
+# TwittyJar - Twitter Advanced Search Export Tool
 
 Export Tweets by using a Twitter Advanced Search similar UI, written in Python. This project was inspired by Jefferson Henrique's Python script at https://github.com/Jefferson-Henrique/GetOldTweets-python for getting old tweets without using the Twitter's API.
 
