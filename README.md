@@ -14,7 +14,8 @@ This tool offers a nice User Interface for passing search criteria and export op
   <p>*The CSV exports will be stored on your desktop</p>
 </ul>
 
-[![Watch the video here](https://gifs.com/embed/twittyjar-twitter-advanced-search-export-tool-mOk3PO)](https://www.youtube.com/watch?v=lWIdSR3aVD8)
+
+[![Watch the video here](http://gifs.com/embed/twittyjar-twitter-advanced-search-export-tool-mOk3PO)](https://www.youtube.com/watch?v=lWIdSR3aVD8)
 
 <h3>:: Search Criteria</h3>
 
