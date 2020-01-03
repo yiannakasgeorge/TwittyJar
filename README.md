@@ -14,8 +14,11 @@ This tool offers a nice User Interface for passing search criteria and export op
   <p>*The CSV exports will be stored on your desktop</p>
 </ul>
 
+<h3>:: Demo</h3>
 
 [![Watch the video here](https://j.gifs.com/mOk3PO.gif)](https://www.youtube.com/watch?v=lWIdSR3aVD8)
+
+<a href="https://www.youtube.com/watch?v=lWIdSR3aVD8">https://www.youtube.com/watch?v=lWIdSR3aVD8</a>
 
 <h3>:: Search Criteria</h3>
 
