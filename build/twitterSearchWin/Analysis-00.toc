@@ -1,6 +1,6 @@
-(['Z:\\Documents\\Git\\twitter-advanced-search\\main.py'],
- ['Z:\\Documents\\Git\\twitter-advanced-search',
-  'Z:\\Documents\\Git\\twitter-advanced-search'],
+(['Z:\\Documents\\gIT\\pythonGUI-twitter-advanced-search\\main.py'],
+ ['Z:\\Documents\\gIT\\pythonGUI-twitter-advanced-search',
+  'Z:\\Documents\\gIT\\pythonGUI-twitter-advanced-search'],
  ['codecs'],
  [],
  [],
@@ -23,7 +23,7 @@
    'PYSOURCE'),
   ('main',
    '\\\\vmware-host\\Shared '
-   'Folders\\Documents\\Git\\twitter-advanced-search\\main.py',
+   'Folders\\Documents\\Git\\pythonGUI-twitter-advanced-search\\main.py',
    'PYSOURCE')],
  [('ssl',
    'c:\\users\\george '
@@ -841,10 +841,6 @@
    'c:\\users\\george '
    'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\os.py',
    'PYMODULE'),
-  ('tracemalloc',
-   'c:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\tracemalloc.py',
-   'PYMODULE'),
   ('stringprep',
    'c:\\users\\george '
    'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\stringprep.py',
@@ -853,15 +849,19 @@
    'c:\\users\\george '
    'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\_py_abc.py',
    'PYMODULE'),
+  ('tracemalloc',
+   'c:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\tracemalloc.py',
+   'PYMODULE'),
   ('PyQt5',
    'c:\\users\\george '
    'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\__init__.py',
    'PYMODULE'),
   ('models',
-   'Z:\\Documents\\Git\\twitter-advanced-search\\models.py',
+   'Z:\\Documents\\gIT\\pythonGUI-twitter-advanced-search\\models.py',
    'PYMODULE'),
   ('searchController',
-   'Z:\\Documents\\Git\\twitter-advanced-search\\searchController.py',
+   'Z:\\Documents\\gIT\\pythonGUI-twitter-advanced-search\\searchController.py',
    'PYMODULE'),
   ('pyquery',
    'c:\\users\\george '
@@ -1392,11 +1392,13 @@
    'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\json\\scanner.py',
    'PYMODULE'),
   ('worker',
-   'Z:\\Documents\\Git\\twitter-advanced-search\\worker.py',
+   'Z:\\Documents\\gIT\\pythonGUI-twitter-advanced-search\\worker.py',
    'PYMODULE'),
-  ('main', 'Z:\\Documents\\Git\\twitter-advanced-search\\main.py', 'PYMODULE'),
+  ('main',
+   'Z:\\Documents\\gIT\\pythonGUI-twitter-advanced-search\\main.py',
+   'PYMODULE'),
   ('tweetsUI',
-   'Z:\\Documents\\Git\\twitter-advanced-search\\tweetsUI.py',
+   'Z:\\Documents\\gIT\\pythonGUI-twitter-advanced-search\\tweetsUI.py',
    'PYMODULE')],
  [('python38.dll',
    'c:\\users\\george '
@@ -1406,85 +1408,85 @@
    'c:\\users\\george '
    'yiannakas\\appdata\\local\\programs\\python\\python38-32\\VCRUNTIME140.dll',
    'BINARY'),
-  ('PyQt5\\Qt\\plugins\\platforms\\qwebgl.dll',
+  ('libEGL.dll',
    'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\platforms\\qwebgl.dll',
-   'BINARY'),
-  ('PyQt5\\Qt\\plugins\\imageformats\\qwbmp.dll',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\imageformats\\qwbmp.dll',
-   'BINARY'),
-  ('PyQt5\\Qt\\plugins\\platformthemes\\qxdgdesktopportal.dll',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\platformthemes\\qxdgdesktopportal.dll',
-   'BINARY'),
-  ('PyQt5\\Qt\\plugins\\styles\\qwindowsvistastyle.dll',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\styles\\qwindowsvistastyle.dll',
-   'BINARY'),
-  ('PyQt5\\Qt\\plugins\\imageformats\\qicns.dll',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\imageformats\\qicns.dll',
-   'BINARY'),
-  ('PyQt5\\Qt\\plugins\\imageformats\\qtga.dll',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\imageformats\\qtga.dll',
-   'BINARY'),
-  ('PyQt5\\Qt\\plugins\\platforms\\qoffscreen.dll',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\platforms\\qoffscreen.dll',
-   'BINARY'),
-  ('PyQt5\\Qt\\plugins\\platforms\\qwindows.dll',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\platforms\\qwindows.dll',
-   'BINARY'),
-  ('opengl32sw.dll',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\bin\\opengl32sw.dll',
-   'BINARY'),
-  ('PyQt5\\Qt\\plugins\\imageformats\\qjpeg.dll',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\imageformats\\qjpeg.dll',
-   'BINARY'),
-  ('PyQt5\\Qt\\plugins\\iconengines\\qsvgicon.dll',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\iconengines\\qsvgicon.dll',
-   'BINARY'),
-  ('PyQt5\\Qt\\plugins\\imageformats\\qsvg.dll',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\imageformats\\qsvg.dll',
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\bin\\libEGL.dll',
    'BINARY'),
   ('libGLESv2.dll',
    'C:\\users\\george '
    'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\bin\\libGLESv2.dll',
    'BINARY'),
+  ('PyQt5\\Qt\\plugins\\platforms\\qwebgl.dll',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\platforms\\qwebgl.dll',
+   'BINARY'),
+  ('PyQt5\\Qt\\plugins\\platforms\\qwindows.dll',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\platforms\\qwindows.dll',
+   'BINARY'),
+  ('PyQt5\\Qt\\plugins\\platforms\\qoffscreen.dll',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\platforms\\qoffscreen.dll',
+   'BINARY'),
   ('PyQt5\\Qt\\plugins\\imageformats\\qtiff.dll',
    'C:\\users\\george '
    'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\imageformats\\qtiff.dll',
    'BINARY'),
-  ('PyQt5\\Qt\\plugins\\imageformats\\qgif.dll',
+  ('PyQt5\\Qt\\plugins\\styles\\qwindowsvistastyle.dll',
    'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\imageformats\\qgif.dll',
-   'BINARY'),
-  ('d3dcompiler_47.dll',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\bin\\d3dcompiler_47.dll',
-   'BINARY'),
-  ('PyQt5\\Qt\\plugins\\imageformats\\qwebp.dll',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\imageformats\\qwebp.dll',
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\styles\\qwindowsvistastyle.dll',
    'BINARY'),
   ('PyQt5\\Qt\\plugins\\platforms\\qminimal.dll',
    'C:\\users\\george '
    'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\platforms\\qminimal.dll',
    'BINARY'),
+  ('PyQt5\\Qt\\plugins\\imageformats\\qsvg.dll',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\imageformats\\qsvg.dll',
+   'BINARY'),
+  ('d3dcompiler_47.dll',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\bin\\d3dcompiler_47.dll',
+   'BINARY'),
+  ('PyQt5\\Qt\\plugins\\imageformats\\qtga.dll',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\imageformats\\qtga.dll',
+   'BINARY'),
+  ('opengl32sw.dll',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\bin\\opengl32sw.dll',
+   'BINARY'),
+  ('PyQt5\\Qt\\plugins\\imageformats\\qwbmp.dll',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\imageformats\\qwbmp.dll',
+   'BINARY'),
+  ('PyQt5\\Qt\\plugins\\imageformats\\qjpeg.dll',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\imageformats\\qjpeg.dll',
+   'BINARY'),
+  ('PyQt5\\Qt\\plugins\\platformthemes\\qxdgdesktopportal.dll',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\platformthemes\\qxdgdesktopportal.dll',
+   'BINARY'),
+  ('PyQt5\\Qt\\plugins\\imageformats\\qwebp.dll',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\imageformats\\qwebp.dll',
+   'BINARY'),
+  ('PyQt5\\Qt\\plugins\\imageformats\\qicns.dll',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\imageformats\\qicns.dll',
+   'BINARY'),
   ('PyQt5\\Qt\\plugins\\imageformats\\qico.dll',
    'C:\\users\\george '
    'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\imageformats\\qico.dll',
    'BINARY'),
-  ('libEGL.dll',
+  ('PyQt5\\Qt\\plugins\\iconengines\\qsvgicon.dll',
    'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\bin\\libEGL.dll',
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\iconengines\\qsvgicon.dll',
+   'BINARY'),
+  ('PyQt5\\Qt\\plugins\\imageformats\\qgif.dll',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\plugins\\imageformats\\qgif.dll',
    'BINARY'),
   ('unicodedata',
    'c:\\users\\george '
@@ -1566,13 +1568,9 @@
    'c:\\users\\george '
    'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\lxml\\_elementpath.cp38-win32.pyd',
    'EXTENSION'),
-  ('Qt5Quick.dll',
-   'c:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\bin\\Qt5Quick.dll',
-   'BINARY'),
-  ('Qt5WebSockets.dll',
-   'c:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\bin\\Qt5WebSockets.dll',
+  ('MSVCP140.dll',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\bin\\MSVCP140.dll',
    'BINARY'),
   ('Qt5Network.dll',
    'c:\\users\\george '
@@ -1586,9 +1584,13 @@
    'c:\\users\\george '
    'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\bin\\Qt5Gui.dll',
    'BINARY'),
-  ('Qt5DBus.dll',
+  ('Qt5WebSockets.dll',
    'c:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\bin\\Qt5DBus.dll',
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\bin\\Qt5WebSockets.dll',
+   'BINARY'),
+  ('Qt5Quick.dll',
+   'c:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\bin\\Qt5Quick.dll',
    'BINARY'),
   ('Qt5Widgets.dll',
    'c:\\users\\george '
@@ -1598,9 +1600,9 @@
    'c:\\users\\george '
    'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\bin\\Qt5Svg.dll',
    'BINARY'),
-  ('MSVCP140.dll',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\bin\\MSVCP140.dll',
+  ('Qt5DBus.dll',
+   'c:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\bin\\Qt5DBus.dll',
    'BINARY'),
   ('libffi-7.dll',
    'c:\\users\\george '
@@ -1625,87 +1627,67 @@
  [],
  [],
  [('base_library.zip',
-   'Z:\\Documents\\Git\\twitter-advanced-search\\build\\twitterSearchWin\\base_library.zip',
-   'DATA'),
-  ('PyQt5\\Qt\\translations\\qtbase_ar.qm',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_ar.qm',
-   'DATA'),
-  ('PyQt5\\Qt\\translations\\qtbase_bg.qm',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_bg.qm',
-   'DATA'),
-  ('PyQt5\\Qt\\translations\\qtbase_es.qm',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_es.qm',
-   'DATA'),
-  ('PyQt5\\Qt\\translations\\qtbase_hu.qm',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_hu.qm',
-   'DATA'),
-  ('PyQt5\\Qt\\translations\\qtbase_gd.qm',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_gd.qm',
-   'DATA'),
-  ('PyQt5\\Qt\\translations\\qtbase_he.qm',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_he.qm',
-   'DATA'),
-  ('PyQt5\\Qt\\translations\\qtbase_ca.qm',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_ca.qm',
-   'DATA'),
-  ('PyQt5\\Qt\\translations\\qtbase_en.qm',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_en.qm',
-   'DATA'),
-  ('PyQt5\\Qt\\translations\\qtbase_fi.qm',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_fi.qm',
-   'DATA'),
-  ('PyQt5\\Qt\\translations\\qtbase_ko.qm',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_ko.qm',
-   'DATA'),
-  ('PyQt5\\Qt\\translations\\qtbase_fr.qm',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_fr.qm',
-   'DATA'),
-  ('PyQt5\\Qt\\translations\\qtbase_lv.qm',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_lv.qm',
-   'DATA'),
-  ('PyQt5\\Qt\\translations\\qtbase_uk.qm',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_uk.qm',
-   'DATA'),
-  ('PyQt5\\Qt\\translations\\qtbase_sk.qm',
-   'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_sk.qm',
+   'Z:\\Documents\\gIT\\pythonGUI-twitter-advanced-search\\build\\twitterSearchWin\\base_library.zip',
    'DATA'),
   ('PyQt5\\Qt\\translations\\qtbase_da.qm',
    'C:\\users\\george '
    'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_da.qm',
    'DATA'),
+  ('PyQt5\\Qt\\translations\\qtbase_cs.qm',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_cs.qm',
+   'DATA'),
   ('PyQt5\\Qt\\translations\\qtbase_it.qm',
    'C:\\users\\george '
    'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_it.qm',
    'DATA'),
-  ('certifi\\cacert.pem',
-   'c:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\certifi\\cacert.pem',
+  ('PyQt5\\Qt\\translations\\qtbase_hu.qm',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_hu.qm',
+   'DATA'),
+  ('PyQt5\\Qt\\translations\\qtbase_lv.qm',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_lv.qm',
    'DATA'),
   ('PyQt5\\Qt\\translations\\qtbase_ja.qm',
    'C:\\users\\george '
    'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_ja.qm',
    'DATA'),
+  ('PyQt5\\Qt\\translations\\qtbase_fi.qm',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_fi.qm',
+   'DATA'),
+  ('PyQt5\\Qt\\translations\\qtbase_bg.qm',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_bg.qm',
+   'DATA'),
+  ('PyQt5\\Qt\\translations\\qtbase_he.qm',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_he.qm',
+   'DATA'),
   ('PyQt5\\Qt\\translations\\qtbase_ru.qm',
    'C:\\users\\george '
    'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_ru.qm',
    'DATA'),
-  ('PyQt5\\Qt\\translations\\qtbase_pl.qm',
+  ('PyQt5\\Qt\\translations\\qtbase_fr.qm',
    'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_pl.qm',
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_fr.qm',
+   'DATA'),
+  ('PyQt5\\Qt\\translations\\qtbase_uk.qm',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_uk.qm',
+   'DATA'),
+  ('PyQt5\\Qt\\translations\\qtbase_ar.qm',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('PyQt5\\Qt\\translations\\qtbase_ko.qm',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_ko.qm',
+   'DATA'),
+  ('PyQt5\\Qt\\translations\\qtbase_gd.qm',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_gd.qm',
    'DATA'),
   ('PyQt5\\Qt\\translations\\qtbase_de.qm',
    'C:\\users\\george '
@@ -1715,8 +1697,28 @@
    'C:\\users\\george '
    'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_zh_TW.qm',
    'DATA'),
-  ('PyQt5\\Qt\\translations\\qtbase_cs.qm',
+  ('PyQt5\\Qt\\translations\\qtbase_es.qm',
    'C:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_cs.qm',
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_es.qm',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'c:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\certifi\\cacert.pem',
+   'DATA'),
+  ('PyQt5\\Qt\\translations\\qtbase_pl.qm',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_pl.qm',
+   'DATA'),
+  ('PyQt5\\Qt\\translations\\qtbase_ca.qm',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_ca.qm',
+   'DATA'),
+  ('PyQt5\\Qt\\translations\\qtbase_sk.qm',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_sk.qm',
+   'DATA'),
+  ('PyQt5\\Qt\\translations\\qtbase_en.qm',
+   'C:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\Qt\\translations\\qtbase_en.qm',
    'DATA')],
  [])

@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['main.py'],
-             pathex=['Z:\\Documents\\Git\\twitter-advanced-search'],
+             pathex=['Z:\\Documents\\gIT\\pythonGUI-twitter-advanced-search'],
              binaries=[],
              datas=[],
              hiddenimports=[],

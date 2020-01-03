@@ -1,4 +1,4 @@
-('Z:\\Documents\\Git\\twitter-advanced-search\\build\\twitterSearchWin\\PYZ-00.pyz',
+('Z:\\Documents\\gIT\\pythonGUI-twitter-advanced-search\\build\\twitterSearchWin\\PYZ-00.pyz',
  [('ssl',
    'c:\\users\\george '
    'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\ssl.py',
@@ -815,10 +815,6 @@
    'c:\\users\\george '
    'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\os.py',
    'PYMODULE'),
-  ('tracemalloc',
-   'c:\\users\\george '
-   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\tracemalloc.py',
-   'PYMODULE'),
   ('stringprep',
    'c:\\users\\george '
    'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\stringprep.py',
@@ -827,15 +823,19 @@
    'c:\\users\\george '
    'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\_py_abc.py',
    'PYMODULE'),
+  ('tracemalloc',
+   'c:\\users\\george '
+   'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\tracemalloc.py',
+   'PYMODULE'),
   ('PyQt5',
    'c:\\users\\george '
    'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyQt5\\__init__.py',
    'PYMODULE'),
   ('models',
-   'Z:\\Documents\\Git\\twitter-advanced-search\\models.py',
+   'Z:\\Documents\\gIT\\pythonGUI-twitter-advanced-search\\models.py',
    'PYMODULE'),
   ('searchController',
-   'Z:\\Documents\\Git\\twitter-advanced-search\\searchController.py',
+   'Z:\\Documents\\gIT\\pythonGUI-twitter-advanced-search\\searchController.py',
    'PYMODULE'),
   ('pyquery',
    'c:\\users\\george '
@@ -1366,9 +1366,11 @@
    'yiannakas\\appdata\\local\\programs\\python\\python38-32\\lib\\json\\scanner.py',
    'PYMODULE'),
   ('worker',
-   'Z:\\Documents\\Git\\twitter-advanced-search\\worker.py',
+   'Z:\\Documents\\gIT\\pythonGUI-twitter-advanced-search\\worker.py',
    'PYMODULE'),
-  ('main', 'Z:\\Documents\\Git\\twitter-advanced-search\\main.py', 'PYMODULE'),
+  ('main',
+   'Z:\\Documents\\gIT\\pythonGUI-twitter-advanced-search\\main.py',
+   'PYMODULE'),
   ('tweetsUI',
-   'Z:\\Documents\\Git\\twitter-advanced-search\\tweetsUI.py',
+   'Z:\\Documents\\gIT\\pythonGUI-twitter-advanced-search\\tweetsUI.py',
    'PYMODULE')])

@@ -121,7 +121,7 @@ class SearchController:
 					if(formExportOptions.posterNumberOfFollowers):
 						tweet.setPosterNumberOfFollowers(rData[0])
 
-
+				# tweet.language = tweetPQ("p.js-tweet-text").attr("lang")
 				tweetTextHtml = tweetPQ("p.js-tweet-text").outerHtml()
 				tweetTextHtmlWithEmojis = re.sub(r"<img.*?alt=\"(.*?)\"[^\>]+>", r'\1', tweetTextHtml)
 				tweetTextHtmlWithEmojis = re.sub(
@@ -134,7 +134,7 @@ class SearchController:
 					"data-tweet-stat-count").replace(",", "")))
 			
 				if(formExportOptions.isARetweetStatus):
-					tweet.setIsARetweetStatus('Yes' if len(tweetPQ("div.QuoteTweet")) > 0 else 'No')
+					tweet.setIsARetweetStatus('Retweet' if len(tweetPQ("div.QuoteTweet")) > 0 else 'Tweet')
 
 				results.append(tweet)
 				resultsAux.append(tweet)

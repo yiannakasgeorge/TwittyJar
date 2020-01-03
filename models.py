@@ -86,7 +86,7 @@ class FormExportOptions:
          'posterNumberOfFollowers': 'Poster followers count',
          'text': 'Tweet text',
          'numberOfRetweets': 'Number of retweets',
-         'isARetweetStatus': 'Is a retweet',
+         'isARetweetStatus': 'Tweet type',
       }
       return fieldsMPColumns
 

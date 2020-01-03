@@ -59,8 +59,8 @@ class Worker(QtCore.QThread):
 
             if(value != False and attr != 'filename'):
                 if(columnNumber != 0):
-                    placeholders += '    ' #tab delimiter
-                    columnsHeading += '    ' #tab delimiter
+                    placeholders += '\t' #tab delimiter
+                    columnsHeading += '\t' #tab delimiter
 
                 columnsHeading += fieldsColumnsMap[attr]
                 placeholders += "{0." + attr +"}"
