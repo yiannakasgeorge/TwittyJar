@@ -20,6 +20,10 @@ This tool offers a nice User Interface for passing search criteria and export op
 
 <a href="https://www.youtube.com/watch?v=lWIdSR3aVD8">https://www.youtube.com/watch?v=lWIdSR3aVD8</a>
 
+<h3>How to convert the exported CSV to an Excel spreadsheet</h3>
+
+Instructions: https://www.youtube.com/watch?v=4a3I5oLj3JU 
+
 <h3>:: Search Criteria</h3>
 
 <h4>Words</h4>
