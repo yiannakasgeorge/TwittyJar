@@ -26,15 +26,16 @@ This tool offers a nice User Interface for passing search criteria and export op
 
 *The above method truncates the text following a comma (,).
 Instead of opening the CSV directly into Excel try the following:
-a) Open a blank workbook in Excel.
-b) Navigate to the "Data" tab
-c) Select the "From Text" Option
-d) Select the CSV file exported
-e) Keep the default options in step 1 (Delimited, Start import at row 1, Unicode (UTF-8) as file origin
-f) Make sure to select "Tab" in the Delimiters column in step 2
-g) Select "General" in Column data form in step 3
-h) Select the existing sheet when prompted to select "Where do you want to put the data"
-
+<ul>
+<li>Open a blank workbook in Excel.</li>
+<li>Navigate to the "Data" tab</li>
+<li>Select the "From Text" Option</li>
+<li>Select the CSV file exported</li>
+<li>Keep the default options in step 1 (Delimited, Start import at row 1, Unicode (UTF-8) as file origin</li>
+<li>Make sure to select "Tab" in the Delimiters column in step 2</li>
+<li>Select "General" in Column data form in step 3</li>
+<li>Select the existing sheet when prompted to select "Where do you want to put the data"</li>
+</ul>
 That's it. You will notice that tweets with comma (,) are no longer being truncated.
 
 *Using this method, will convert the "Poster username" context to formulas. Select the "Poster username" column and its contents and click "Text to columns" option from the "Data" tab. Choose 'delimited' in step 1, "Tab" in step 2 and "Text" in step 3 to convert them to text. Then just clear the "=" sign from the context.
