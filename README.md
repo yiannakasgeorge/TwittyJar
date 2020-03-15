@@ -22,7 +22,24 @@ This tool offers a nice User Interface for passing search criteria and export op
 
 <h3>How to convert the exported CSV to an Excel spreadsheet</h3>
 
-Instructions: https://www.youtube.com/watch?v=4a3I5oLj3JU 
+*Instructions: https://www.youtube.com/watch?v=4a3I5oLj3JU 
+
+*The above method truncates the text following a comma (,).
+Instead of opening the CSV directly into Excel try the following:
+a) Open a blank workbook in Excel.
+b) Navigate to the "Data" tab
+c) Select the "From Text" Option
+d) Select the CSV file exported
+e) Keep the default options in step 1 (Delimited, Start import at row 1, Unicode (UTF-8) as file origin
+f) Make sure to select "Tab" in the Delimiters column in step 2
+g) Select "General" in Column data form in step 3
+h) Select the existing sheet when prompted to select "Where do you want to put the data"
+
+That's it. You will notice that tweets with comma (,) are no longer being truncated.
+
+*Using this method, will convert the "Poster username" context to formulas. Select the "Poster username" column and its contents and click "Text to columns" option from the "Data" tab. Choose 'delimited' in step 1, "Tab" in step 2 and "Text" in step 3 to convert them to text. Then just clear the "=" sign from the context.
+
+*For the "Tweet id" column , just form the cells to "Number" with zero decimal places.
 
 <h3>:: Search Criteria</h3>
 
