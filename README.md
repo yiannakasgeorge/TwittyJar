@@ -36,11 +36,14 @@ Instead of opening the CSV directly into Excel try the following:
 <li>Select "General" in Column data form in step 3</li>
 <li>Select the existing sheet when prompted to select "Where do you want to put the data"</li>
 </ul>
+
 That's it. You will notice that tweets with comma (,) are no longer being truncated.
 
-*Using this method, will convert the "Poster username" context to formulas. Select the "Poster username" column and its contents and click "Text to columns" option from the "Data" tab. Choose 'delimited' in step 1, "Tab" in step 2 and "Text" in step 3 to convert them to text. Then just clear the "=" sign from the context.
+*Using the method above, will incorrectly convert the "Poster username" context to formulas.
 
-*For the "Tweet id" column , just form the cells to "Number" with zero decimal places.
+Select the "Poster username" column and its contents and click "Text to columns" option from the "Data" tab. Choose 'delimited' in step 1, "Tab" in step 2 and "Text" in step 3 to convert them to text. Then just clear the "=" sign from the context.
+
+**For the "Tweet id" column , just form the cells to "Number" with zero decimal places.
 
 <h3>:: Search Criteria</h3>
 
