@@ -1,4 +1,4 @@
 certifi==2018.11.29
 pyquery==1.4.0
-urllib3==1.25.7
+urllib3==1.26.5
 PyQt5==5.13.2
